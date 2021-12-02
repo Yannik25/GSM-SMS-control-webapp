@@ -1,0 +1,13 @@
+CACHE MANIFEST
+
+CACHE:
+# Offline cache v2
+# html files
+index.php
+
+# css files
+css/bootstrap.min.css
+css/style.css
+
+# js files
+js/moment.js
