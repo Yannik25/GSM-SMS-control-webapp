@@ -49,7 +49,6 @@
         <meta name="viewport" content="width=device-width, user-scalable=no" />
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
-        <script src="js/moment.js"></script>
 
 
 
@@ -68,12 +67,12 @@
 <body>
 
     <add-to-home-screen></add-to-home-screen>
-    <script type="module" src="AddToHomeScreen.js"></script>
+    <script type="module" src="js/AddToHomeScreen.js"></script>
 
         <script type="text/javascript">
         function turnon() {
             var number = receivernumber.value;
-            window.location.href = "sms:" + number + "&body="'ON';
+            window.location.href = "sms:" + number + "&body=ON";
         }
         </script>
 
