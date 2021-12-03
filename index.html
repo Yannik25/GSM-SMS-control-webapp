@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html manifest="offline.appcache" xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+    <link rel="canonical" href="https://Yannik25.github.io/GSM-SMS-control-webapp/" />
     <head>
 
         <meta charset="utf-8">
@@ -65,7 +65,12 @@
     </head>
 
 <body>
-
+    <script>
+        // register ServiceWorker, remember to use absolute path!
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register('/GSM-SMS-control-webapp/js/sw.js', {scope: '/GSM-SMS-control-webapp/'})
+        }
+    </script>
     <add-to-home-screen></add-to-home-screen>
     <script type="module" src="js/AddToHomeScreen.js"></script>
 
