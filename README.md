@@ -1,3 +1,4 @@
+# WIP
 # GSM-SMS-control-webapp
 
 ## Control auxiliary heater with GSM SMS module via webapp
@@ -11,5 +12,5 @@ https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e
 For the Add to home-screen animation I used:
 https://github.com/rajatsehgal/add-to-home-screen
 
-##Hosted by GitHub Pages
+## Hosted by GitHub Pages
 Visit: https://yannik25.github.io/GSM-SMS-control-webapp/
